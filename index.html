@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Eventos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0be5e4daf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="search-container">
+            <input type="text" id="search" class="search-input" placeholder="Buscar eventos...">
+             <button type="button" class="search-button" onclick="filtrarEventos()">Buscar</button>
+        </div>
+    </header>
+
+    <h1>Cadastre seu evento!</h1>
+    
+    <form id="eventoForm">
+        <input type="text" id="nome" placeholder="Nome do Evento" required>
+        <input type="date" id="data" required>
+        <input type="text" id="local" placeholder="Local" required>
+        <textarea id="descricao" placeholder="Descrição"></textarea>
+        <button type="submit">Cadastrar Evento</button>
+    </form>
+
+    <h2>Eventos Cadastrados</h2>
+    <div id="eventos" class="eventos-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

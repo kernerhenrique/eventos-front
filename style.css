@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*HEADER*/
+.header {
+    padding: 10px;
+    background-color: #9cb1f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 250px;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button{
+    margin-left: 10px;
+}
+
+/*CARD EVENTOS*/
+.eventos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #efefef;
+    padding: 50px;
+}
+
+.evento-card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.evento-card h3 {
+    margin: 0;
+    color: #007BFF;
+    display: flex;
+    justify-content: center;
+}
+
+.evento-card p {
+    margin-top: 20px;
+    color: #555;
+}
+
+.evento-card button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.evento-card button:hover {
+    background: #c82333;
+}
